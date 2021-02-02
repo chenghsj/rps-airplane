@@ -1,0 +1,190 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "asyncLoadAssets": false,
+    "readonly": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "eve",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      }
+    ],
+    "_prefab": {
+      "__id__": 5
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 178,
+      "height": 255
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -380,
+        -135,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "2e69e536-d028-493e-930f-d915d885d1b5"
+    },
+    "_type": 0,
+    "_sizeMode": 1,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": {
+      "__uuid__": "603f84ae-90dc-418e-97c6-b0c442300386"
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Animation",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_defaultClip": {
+      "__uuid__": "4e37286d-8705-4695-b583-41efd005f847"
+    },
+    "_clips": [
+      {
+        "__uuid__": "4e37286d-8705-4695-b583-41efd005f847"
+      },
+      {
+        "__uuid__": "a6b83440-66d4-45cc-9141-7f9cf033f34b"
+      },
+      {
+        "__uuid__": "e9a1abfe-1f07-4978-88da-254bb124c0e0"
+      },
+      {
+        "__uuid__": "4d913966-2bea-4c92-8447-1d1838ebf737"
+      },
+      {
+        "__uuid__": "d177133a-0c9d-49ed-9531-170396b58149"
+      },
+      {
+        "__uuid__": "ef05e5dc-6b1a-4cdf-8f63-0cfc9389107a"
+      },
+      {
+        "__uuid__": "2876c0f6-7028-480e-8a25-d019e5fc6441"
+      },
+      {
+        "__uuid__": "1fd262d7-e043-45bf-8d19-43b604c8b7d4"
+      },
+      {
+        "__uuid__": "15a2cfd0-69f2-4998-b8f5-ab94f6345862"
+      },
+      {
+        "__uuid__": "fe7b351f-f248-4074-8e31-248f7968c66a"
+      },
+      {
+        "__uuid__": "333e0269-d2db-433a-8306-3ac1b30cd9a5"
+      }
+    ],
+    "playOnLoad": true,
+    "_id": ""
+  },
+  {
+    "__type__": "bd082rz7zxDSJdx3jO+iMNQ",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "anim": null,
+    "score": 0,
+    "tempScore": 0,
+    "playerName": "eve",
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "3e80be43-fa9b-4e71-be74-e7c7f88fa6fb"
+    },
+    "fileId": "",
+    "sync": false
+  }
+]

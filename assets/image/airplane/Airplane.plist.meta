@@ -1,0 +1,53 @@
+{
+  "ver": "1.2.4",
+  "uuid": "9e9b9878-4e1b-459f-b4f0-520e0cd3ad32",
+  "size": {
+    "width": 512,
+    "height": 512
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "Airplane10000": {
+      "ver": "1.0.4",
+      "uuid": "c1f61632-0213-4ce7-a9f3-374e638d5028",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 297,
+      "height": 134,
+      "rawWidth": 297,
+      "rawHeight": 134,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    },
+    "Airplane10001": {
+      "ver": "1.0.4",
+      "uuid": "d21da12b-e486-4bae-868f-67f877ae8909",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 134,
+      "width": 297,
+      "height": 134,
+      "rawWidth": 297,
+      "rawHeight": 134,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

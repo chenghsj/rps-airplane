@@ -1,0 +1,57 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "eve_action_lose_01",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.35,
+  "sample": 60,
+  "speed": 0.6,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "cd9ccd62-7cea-405e-88d9-856d1ae66d0b"
+            }
+          },
+          {
+            "frame": 0.08333333333333333,
+            "value": {
+              "__uuid__": "f1d02ef9-c78f-4200-81e5-882c86b78d98"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "94f3b159-4411-49b0-ab9f-15cdaef4d727"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "c0f933a6-4ab2-4a4d-851c-73aaff56131c"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "4c1be781-0825-492b-a8f9-5c936a45827e"
+            }
+          }
+        ]
+      }
+    },
+    "props": {
+      "x": [
+        {
+          "frame": 0,
+          "value": -829.367
+        }
+      ]
+    }
+  },
+  "events": []
+}
