@@ -37,7 +37,6 @@ cc.Class({
 
     this.adam.showAction(this.adamHand[randomHand], 0);
 
-    // if (!lobby.rps_start) {
     switch (customEventData) {
       case BtnState.ROCk:
         {

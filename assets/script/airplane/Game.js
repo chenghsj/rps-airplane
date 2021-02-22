@@ -4,7 +4,7 @@
 //  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
-import BulletRotation from "./Bullet/BulletRotation";
+
 cc.Class({
   extends: cc.Component,
 
@@ -77,7 +77,6 @@ cc.Class({
 
   onLoad() {
     this.mode = "BulletBase";
-    // this.firedBullet();
 
     this.airplane = cc.instantiate(this.airplanePrefab);
     this.node.addChild(this.airplane);

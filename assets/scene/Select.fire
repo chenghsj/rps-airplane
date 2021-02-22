@@ -84,13 +84,13 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 28
-      },
-      {
-        "__id__": 29
-      },
-      {
         "__id__": 30
+      },
+      {
+        "__id__": 31
+      },
+      {
+        "__id__": 32
       }
     ],
     "_prefab": null,
@@ -180,7 +180,7 @@
       "array": [
         0,
         0,
-        397.50566033705735,
+        391.4434825105663,
         0,
         0,
         0,
@@ -258,6 +258,9 @@
       },
       {
         "__id__": 13
+      },
+      {
+        "__id__": 29
       }
     ],
     "_prefab": null,
@@ -623,8 +626,8 @@
       "__id__": 5
     },
     "component": "",
-    "_componentId": "12fa8wKc2ZBx5XW+cof+C0L",
-    "handler": "btnClick",
+    "_componentId": "7130ds0ZcFDpYbb5uc1Tar0",
+    "handler": "onClick",
     "customEventData": "Airplane"
   },
   {
@@ -634,7 +637,7 @@
     "node": {
       "__id__": 5
     },
-    "_enabled": true,
+    "_enabled": false,
     "airplaneBtn": {
       "__id__": 11
     },
@@ -660,7 +663,7 @@
     "zoomScale": 1.2,
     "clickEvents": [
       {
-        "__id__": 27
+        "__id__": 28
       }
     ],
     "_N$interactable": true,
@@ -751,6 +754,9 @@
       },
       {
         "__id__": 21
+      },
+      {
+        "__id__": 27
       }
     ],
     "_prefab": null,
@@ -1031,7 +1037,7 @@
     "node": {
       "__id__": 15
     },
-    "_enabled": true,
+    "_enabled": false,
     "airplaneBtn": {
       "__id__": 11
     },
@@ -1256,14 +1262,34 @@
     "_id": "96pIggYo5BMILVPJObZu4e"
   },
   {
+    "__type__": "7130ds0ZcFDpYbb5uc1Tar0",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 15
+    },
+    "_enabled": true,
+    "_id": "79j2VtgjZGjblaT5Nsp3UF"
+  },
+  {
     "__type__": "cc.ClickEvent",
     "target": {
       "__id__": 15
     },
     "component": "",
-    "_componentId": "12fa8wKc2ZBx5XW+cof+C0L",
-    "handler": "btnClick",
+    "_componentId": "7130ds0ZcFDpYbb5uc1Tar0",
+    "handler": "onClick",
     "customEventData": "RPS"
+  },
+  {
+    "__type__": "7130ds0ZcFDpYbb5uc1Tar0",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 5
+    },
+    "_enabled": true,
+    "_id": "1bEGLXSl1Gu5agOApNy7W7"
   },
   {
     "__type__": "cc.Canvas",

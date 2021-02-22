@@ -8,26 +8,14 @@
 cc.Class({
   extends: cc.Component,
 
-  properties: {
-    // straightBtn: cc.Button,
-    // RotationBtn: cc.Button,
-    // ParabolaBtn: cc.Button,
-    button: cc.Button,
-  },
+  properties: {},
 
   // LIFE-CYCLE CALLBACKS:
 
-  onLoad: function () {
-    // this.node.on("mode", function (msg) {
-    //   console.log(msg);
-    // });
-    this.button.node.on("click", this.callback, this);
-  },
+  onLoad: function () {},
 
-  callback: function (button) {
-    cc.director.emit("mode", button.node.name);
-    // do whatever you want with button
-    // 另外，注意这种方式注册的事件，也无法传递 customEventData
+  onClick: function (event, customEventData) {
+    cc.director.emit("mode", customEventData);
   },
 
   start() {},

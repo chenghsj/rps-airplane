@@ -19,7 +19,6 @@ cc.Class({
         let x = e.getLocationX() - this.width / 2;
         let y = e.getLocationY() - this.height / 2;
         self.node.setPosition(x, y);
-        console.log(e.getLocationX(), e.getLocationY());
       },
       this.node.parent
     );

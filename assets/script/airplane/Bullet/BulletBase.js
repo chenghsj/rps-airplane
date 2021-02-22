@@ -31,7 +31,10 @@ export default cc.Class({
 
   fire() {
     cc.tween(this.node)
-      .to(this.getDistanceX() / 200, { x: this.canvasWidth() / 2 })
+      .to(this.getDistanceX() / 200, {
+        x: this.canvasWidth() / 2,
+        // position: cc.v2(this.canvasWidth() / 2, this.startPosY),
+      })
       .start();
   },
 
@@ -42,12 +45,13 @@ export default cc.Class({
   // LIFE-CYCLE CALLBACKS:
 
   onLoad() {
-    this.fire();
     this.startPosX = this.node.x;
     this.startPosY = this.node.y;
   },
 
-  start() {},
+  start() {
+    this.fire();
+  },
 
   update(dt) {
     if (this.node.x === this.canvasWidth() / 2) {

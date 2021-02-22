@@ -23,30 +23,10 @@ cc.Class({
     },
   },
 
-  btnClick(event, customEventData) {
-    this.progressBar.getComponent(cc.Sprite).enabled = true;
-    this.selectScene(customEventData);
-  },
-
-  /** 跳轉頁面前顯示進度條 */
-  selectScene(scene = String) {
-    cc.director.preloadScene(scene, this.onProgress.bind(this), function () {
-      cc.director.loadScene(scene);
-    });
-  },
-
-  onProgress(completedCount, totalCount) {
-    let progress = completedCount / totalCount;
-    this.progressBar.getComponent(cc.ProgressBar).progress =
-      progress > this.progressBar.getComponent(cc.ProgressBar).progress
-        ? progress
-        : this.progressBar.getComponent(cc.ProgressBar).progress;
-  },
-
   // LIFE-CYCLE CALLBACKS:
 
   onLoad() {
-    this.progressBar.getComponent(cc.Sprite).enabled = false;
+    this.progressBar.enabled = false;
   },
 
   start() {},
